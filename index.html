@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Zehua Zou's Resume</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function LoadAvatar() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+            <!-- 头像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/avatar.jpg" onload="LoadAvatar()">
+                </section>
+
+                <h1 class="name">邹泽桦</h1>
+                <h4 class="info-job">南方科技大学学生 / 深圳</h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>个人信息：</label>
+                        <span>邹泽桦 / 男 / 20岁</span>
+                    </li>
+                    <li>
+                        <label>预计毕业年份：</label>
+                        <span>2022</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>手机：</label>
+                        <a href="tel:15813859465" target="_blank">15813859465</a>
+                    </li>
+                    <li>
+                        <label>邮箱：</label>
+                        <a href="mailto:zehuazou2000@gmail.com" target="_blank">zehuazou2000@gmail.com</a>
+                    </li>
+                    <li>
+                        <label>个人博客：</label>
+                        <a href="https://www.huahuaorz.com/" target="_blank">www.huahuaorz.com</a>
+                    </li>
+                    <li>
+                        <label>Github：</label>
+                        <a href="https://github.com/HuaHuaY" target="_blank">HuaHuaY</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>Java</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>C++</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Python</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Rust</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>SQL</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 其他 -->
+            <div class="stack info-unit">
+                <h2><i class="fa fa-code" aria-hidden="true"></i>其他</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>GUI：</label>
+                        <span>JavaFX</span>
+                    </li>
+                    <li>
+                        <label>后端：</label>
+                        <span>Springboot, PostgreSQL</span>
+                    </li>
+                    <li>
+                        <label>其他：</label>
+                        <span>Git、Latex、Markdown</span>
+                    </li>
+                </ul>
+            </div>
+
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>微信二维码</h2>
+                <hr />
+                <img src="assets/images/wechat.png" style="width: 100%;" alt="">
+            </section>
+        </section>
+
+        <section class="main">
+            <!-- 专业能力 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>专业能力
+                </h2>
+                <hr />
+                <ul class="info-content">
+                    <li>
+                        <p>
+                            掌握Java, C/C++, Python，Makefile，熟悉Rust；<br>
+                            能看懂一些C#，JavaScrpit，php代码；<br>
+                            熟悉数组、队列、栈、二叉树、图的基础数据结构；<br>
+                            熟悉排序、二分搜索、KMP、DFS、BFS等基础算法；<br>
+                            熟悉Linux，Windows命令行操作；<br>
+                            使用SpringBoot和PostgreSQL编写过网页；<br>
+                            使用Unity制作过游戏；<br>
+                            熟悉基础的计算机网络知识。
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            拥有较好的网络搜索能力与自学能力。<br>
+                            利用网络上的教程搭建过Typecho博客、Github Pages静态页面，安装使用过PVE，编译刷写过软路由；<br>
+                            能使用Google、StackOverflow等解决编程中遇到的大部分问题；<br>
+                            从网络学习配置VSCode等开发环境，查找网络编写过MFC，Springboot，PyQt等，自学过Rust。
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            拥有较强的代码能力，代码风格良好。<br>
+                            能读懂已有的代码并为其修改、完善功能。
+                            在团队项目里常常负责大部分代码。
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>南方科技大学 - 计算机科学与技术专业（本科）</span>
+                            <time>2018.9-至今</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>担任Java学生助理：2019.9-2020.1</li>
+                            <li>担任C++学生助理：2019.9-2020.6<br>获得过院系“优秀学生助理”奖状</li>
+                            <li>维护科学与计算中心公众号：2020.3-至今</li>
+                            <li>参与测试教工部新教务系统：2021.1-至今</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span>JavaFX项目</span>
+                            <!-- <span class="link">
+                                <a href="https://github.com/HuaHuaY/Data-Visualization" target="_blank">Demo</a>
+                            </span>
+                            <time>2018.9-2019.1</time> -->
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：JavaFX
+                                <ul class="info-content">
+                                    <li>
+                                        <span class="link">
+                                            <a href="https://github.com/HuaHuaY/Data-Visualization" target="_blank">Data
+                                                Visualization</a>
+                                        </span>
+                                        (<time>2018.9-2019.1</time>)
+                                        <br>
+                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                        [目标]动态展示2017.1-2018.12中TIOBE排行前十名变化情况。
+                                        <br />
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        [人员]单人项目
+                                        <br />
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                        [效果]作为优秀项目展示、演讲
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>技术栈：JavaFX、网络编程
+                                <ul class="info-content">
+                                    <li>
+                                        <span class="link">
+                                            <a href="https://github.com/HuaHuaY/Comments-Crawling"
+                                                target="_blank">Comments
+                                                Crawling</a>
+                                        </span>
+                                        (<time>2019-3-2019.6</time>)
+                                        <br>
+                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                        [目标]能登陆天猫，搜索天猫商品，并查看、对比不同商品下的评论情况
+                                        <br />
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        [人员]与1位同学共同完成。
+                                        <br />
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                        [贡献]负责50%以上的代码，以及最后的整合工作
+                                        <br />
+                                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                        [效果]作为优秀项目展示、演讲
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>MFC项目</span>
+                            <!-- <span class="link">
+                                <a href="https://github.com/HuaHuaY/Data-Visualization" target="_blank">Demo</a>
+                            </span>
+                            <time>2018.9-2019.1</time> -->
+                        </h3>
+                        <ul class="info-content">
+                            <li>技术栈：MFC、网络编程
+                                <ul class="info-content">
+                                    <li>
+                                        <span class="link">
+                                            <a href="https://github.com/HuaHuaY/SUSTech_HowManyGPA" target="_blank">SUSTech_HowManyGPA</a>
+                                        </span>
+                                        (<time>2020.2</time>)
+                                        <br>
+                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                        [目标]登陆学校教务系统，查询课程成绩，计算任意数门课程的成绩平均后的GPA
+                                        <br />
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        [人员]单人项目
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望
+                </h2>
+                <hr />
+                <p>
+                    对未知事物充满好奇心，愿意了解各种自己不知道的技术。
+                </p>
+            </section>
+        </section>
+    </article>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
